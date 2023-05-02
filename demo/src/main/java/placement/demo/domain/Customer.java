@@ -2,10 +2,11 @@ package placement.demo.domain;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.GenericGenerator;
+//import org.hibernate.annotations.GenericGenerator;
+import org.springframework.data.annotation.Id;
 
 
-import javax.persistence.*;
+//import javax.persistence.*;
 
 @Getter
 @Setter
